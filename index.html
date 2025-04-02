@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMagnet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo" id="main-logo">
+            <img src="img/лого.png" width="40" height="30" alt="MovieMagnet Logo" class="header-logo">
+            MovieMagnet
+        </a>
+        <nav>
+            <ul>
+                <li><a href="horror.html" class="btn genre-btn" data-genre="horror">Ужасы</a></li>
+                <li><a href="comedy.html" class="btn genre-btn" data-genre="comedy">Комедии</a></li>
+                <li><a href="action.html" class="btn genre-btn" data-genre="action">Боевики</a></li>
+                <li><a href="sci-fi.html" class="btn genre-btn" data-genre="sci-fi">Фантастика</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main-page">
+        <h1 class="scroll-animate">Привет! На этом сайте вы увидите топ моих любимых фильмов по жанрам</h1>
+        <p class="scroll-animate">Я расскажу про 4 жанра и приведу по 3 фильма, которые советую посмотреть каждому. Погрузитесь в атмосферу теплого киновечера с моей подборкой фильмов, каждая категория - это искры страсти и огонь эмоций.</p>
+        <div class="movie-category" data-genre="horror">
+            <div class="movie-poster">
+                <img src="img/ужасы.png" alt="Ужасы">
+            </div>
+            <div class="movie-info">
+                <h2 class="category-title">Ужасы</h2>
+                <p class="category-description">Жанр художественного произведения, в котором авторы произведений создают жуткую и пугающую атмосферу чтобы устрашить, шокировать или вызвать отвращение у своих зрителей. Часто главная угроза произведения в жанре «ужасы» может быть истолкована как метафора больших опасений общества.</p>
+                <p class="movies-examples">Примеры: "Оно", "Заклятие", "Хэллоуин", "Пила"</p>
+            </div>
+        </div>
+        
+        <div class="movie-category" data-genre="comedy">
+            <div class="movie-poster">
+                <img src="img/комедия.png" alt="Комедии">
+            </div>
+            <div class="movie-info">
+                <h2 class="category-title">Комедии</h2>
+                <p class="category-description">Жанр художественного произведения, характеризующийся юмористическим или сатирическим подходами, и также вид драмы, в котором специфически разрешается момент действенного конфликта или борьбы. Специфичность выражается в том, что вся борьба ведётся с некими обыденными и низкими целями, методами, считающимися ничтожными, смешными и нелепыми.</p>
+                <p class="movies-examples">Примеры: "Один дома", "Мальчишник в Вегасе", "Соседка", "Мисс Конгениальность"</p>
+            </div>
+        </div>
+        
+        <div class="movie-category" data-genre="action">
+            <div class="movie-poster">
+                <img src="img/боевики.png" alt="Боевики">
+            </div>
+            <div class="movie-info">
+                <h2 class="category-title">Боевики</h2>
+                <p class="category-description">Жанр кинематографа, в котором основное внимание уделяется перестрелкам, дракам, погоням и т. д. Боевики часто обладают высоким бюджетом, изобилуют каскадёрскими трюками и спецэффектами. Большинство боевиков иллюстрируют известный тезис «добро должно быть с кулаками». Фильмы этого жанра зачастую не обладают сложным сюжетом.</p>
+                <p class="movies-examples">Примеры: "Джон Уик", "Миссия невыполнима", "Дэдпул", "Безумный макс"</p>
+            </div>
+        </div>
+        
+        <div class="movie-category" data-genre="sci-fi">
+            <div class="movie-poster">
+                <img src="img/фантастика.png" alt="Фантастика">
+            </div>
+            <div class="movie-info">
+                <h2 class="category-title">Фантастика</h2>
+                <p class="category-description">Жанр, который использует вымышленные, научные или сверхъестественные концепции, выходящие за рамки реальности. Он часто исследует гипотетические сценарии, альтернативные миры, будущие технологии, космические путешествия, параллельные вселенные и другие невероятные явления, которые просто не существуют.</p>
+                <p class="movies-examples">Примеры: "Аватар", "Матрица", "Начало", "Интерстеллар"</p>
+            </div>
+        </div>
+    </main>
+    <section class="interactive-map">
+        <h2 class="map-title">Мы на карте</h2>
+        <div class="map-iframe-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.372789924803!2d37.61531031593095!3d55.75197498055209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506f52311!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru" 
+                width="100%" 
+                height="100" 
+                style="border:0;"
+                loading="lazy"
+                class="interactive-iframe">
+            </iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="social-links">
+            <a href="https://t.me/patarrrnich" target="_blank"><img src="img/tg.png" width="35" height="35" alt="Telegram"></a>
+            <a href="https://vk.com/patpat9" target="_blank"><img src="img/vk.png" width="35" height="35" alt="VK"></a>
+            <a href="https://www.figma.com/@patarrr" target="_blank"><img src="img/fig.png" width="35" height="35" alt="Figma"></a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><div class="movies-examples">Copyright ® 2025 MovieMagnet</div></li>
+            </ul>
+        </nav>
+            <img src="img/лого.png" width="40" height="30" alt="footer-logo" class="footer-logo">
+        </a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

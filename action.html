@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Боевики | MovieMagnet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo" id="main-logo">
+            <img src="img/лого.png" width="40" height="30" alt="MovieMagnet Logo" class="header-logo">
+            MovieMagnet
+        </a>
+        <nav>
+            <ul>
+                <li><a href="horror.html" class="btn genre-btn" data-genre="horror">Ужасы</a></li>
+                <li><a href="comedy.html" class="btn genre-btn" data-genre="comedy">Комедии</a></li>
+                <li><a href="action.html" class="btn genre-btn" data-genre="action">Боевики</a></li>
+                <li><a href="sci-fi.html" class="btn genre-btn" data-genre="sci-fi">Фантастика</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="genre-page active">
+        <h1>Лучшие боевики</h1>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/боевики1.png" alt="Наёмник">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Наёмник (2017)</h3>
+                    <p>Тайный наёмник ЦРУ Митч Рэпп раздавлен потерей невесты в результате теракта. Заместитель директора ЦРУ назначает Стэна Хёрли обучать убитого горем, но серьёзно настроенного Митча предотвращению террористических операций и охоте на преступников. Вместе они исследуют волну, на первый взгляд, случайных нападений на военные и гражданские объекты. Но позже напарникам предстоит объединиться с турецким агентом, чтобы предотвратить начало Третьей мировой войны на Ближнем Востоке.</p>
+                    <p><strong>Режиссер:</strong> Майкл Куэста</p>
+                    <p><strong>Рейтинг:</strong> 6.2/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/боевики2.png" alt="Бросок кобры">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Бросок кобры (2009)</h3>
+                    <p>Элитный международный отряд спецназа G.I. Joe противостоит террористической организации «Кобра», которая угрожает миру с помощью нанотехнологического оружия массового поражения. Главные герои — агенты Дюк и Рипкорд  пытаются остановить злодеев во главе с Дестро и коварной Анастейшей.</p>
+                    <p><strong>Режиссер:</strong> Стивен Соммерс</p>
+                    <p><strong>Рейтинг:</strong> 5.7/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/боевики3.png" alt="Форсаж">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Форсаж (2001)</h3>
+                    <p>Его зовут Брайан, и он — фанат турбин и нитроускорителей. Он пытается попасть в автобанду легендарного Доминика Торетто, чемпиона опасных и незаконных уличных гонок. Брайан также полицейский, и его задание — втереться в доверие к Торетто, подозреваемому в причастности к дерзким грабежам грузовиков, совершаемым прямо на ходу.</p>
+                    <p><strong>Режиссер:</strong> Роб Коэн</p>
+                    <p><strong>Рейтинг:</strong> 6.8/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://t.me/patarrrnich" target="_blank"><img src="img/tg.png" width="35" height="35" alt="Telegram"></a>
+            <a href="https://vk.com/patpat9" target="_blank"><img src="img/vk.png" width="35" height="35" alt="VK"></a>
+            <a href="https://www.figma.com/@patarrr" target="_blank"><img src="img/fig.png" width="35" height="35" alt="Figma"></a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><div class="movies-examples">Copyright ® 2025 MovieMagnet</div></li>
+            </ul>
+        </nav>
+        <img src="img/лого.png" width="40" height="30" alt="footer-logo" class="footer-logo">
+    </footer>
+    <script src="js/script.js"></script>
+
+<div id="video-modal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="close-modal">&times;</span>
+        <video id="video-player" controls>
+            Ваш браузер не поддерживает HTML5 видео.
+        </video>
+        <div class="video-controls">
+            <button class="control-btn play-pause">▶</button>
+            <input type="range" class="video-progress" value="0">
+            <button class="control-btn fullscreen">⛶</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

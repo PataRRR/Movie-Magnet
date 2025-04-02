@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ужасы | MovieMagnet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo" id="main-logo">
+            <img src="img/лого.png" width="40" height="30" alt="MovieMagnet Logo" class="header-logo">
+            MovieMagnet
+        </a>
+        <nav>
+            <ul>
+                <li><a href="horror.html" class="btn genre-btn" data-genre="horror">Ужасы</a></li>
+                <li><a href="comedy.html" class="btn genre-btn" data-genre="comedy">Комедии</a></li>
+                <li><a href="action.html" class="btn genre-btn" data-genre="action">Боевики</a></li>
+                <li><a href="sci-fi.html" class="btn genre-btn" data-genre="sci-fi">Фантастика</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="genre-page active">
+        <h1>Лучшие фильмы ужасов</h1>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/ужасы1.png" alt="Оцепеневшие от страха">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Оцепеневшие от страха (2018)</h3>
+                    <p>Леденящие душу события сотрясают пригородное местечко, где соседствуют три уютных домика: неведомая сила зверски убивает женщину на глазах мужа, ночью у кровати его соседа появляется ужасный монстр, а мальчик из дома напротив, погибший под колесами автомобиля, возвращается с кладбища и садится за кухонный стол. Искать причину необъяснимых кошмаров берутся три специалиста по паранормальным явлениям и детектив из отдела по расследованию убийств.</p>
+                    <p><strong>Режиссер:</strong> Демиан Рунья</p>
+                    <p><strong>Рейтинг:</strong> 6.5/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/ужасы2.png" alt="Астрал">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Астрал (2010)</h3>
+                    <p>Джош и Рене переезжают с детьми в новый дом, но не успевают толком распаковать вещи, как начинаются странные события. Необъяснимо перемещаются предметы, в детской звучат странные звуки, но настоящий кошмар начинается, когда их десятилетний сын Далтон впадает в кому. Все усилия врачей помочь мальчику безуспешны. Несколько месяцев спустя его возвращают домой, и загадочные явления продолжаются. Вскоре выясняется, что Далтон в бессознательном состоянии связан с паранормальным миром.</p>
+                    <p><strong>Режиссер:</strong> Джеймс Ван</p>
+                    <p><strong>Рейтинг:</strong> 6.8/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/ужасы3.png" alt="Сайлент Хилл">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Сайлент Хилл (2006)</h3>
+                    <p>Доктора не могут найти лекарство от таинственного заболевания Шэрон, но её мать Роуз отказывается отдавать ребёнка в психиатрическую лечебницу. Вместе с дочерью она отправляется в Сайлент Хилл - город, название которого Шэрон постоянно твердит во сне. Роуз убеждена, что именно здесь она найдёт ответы, в которых так нуждается.</p>
+                    <p><strong>Режиссер:</strong> Кристоф Ган</p>
+                    <p><strong>Рейтинг:</strong> 7.2/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://t.me/patarrrnich" target="_blank"><img src="img/tg.png" width="35" height="35" alt="Telegram"></a>
+            <a href="https://vk.com/patpat9" target="_blank"><img src="img/vk.png" width="35" height="35" alt="VK"></a>
+            <a href="https://www.figma.com/@patarrr" target="_blank"><img src="img/fig.png" width="35" height="35" alt="Figma"></a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><div class="movies-examples">Copyright ® 2025 MovieMagnet</div></li>
+            </ul>
+        </nav>
+        <img src="img/лого.png" width="40" height="30" alt="footer-logo" class="footer-logo">
+    </footer>
+    <script src="js/script.js"></script>
+
+<div id="video-modal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="close-modal">&times;</span>
+        <video id="video-player" controls>
+            Ваш браузер не поддерживает HTML5 видео.
+        </video>
+        <div class="video-controls">
+            <button class="control-btn play-pause">▶</button>
+            <input type="range" class="video-progress" value="0">
+            <button class="control-btn fullscreen">⛶</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

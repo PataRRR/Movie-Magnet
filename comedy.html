@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комедии | MovieMagnet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo" id="main-logo">
+            <img src="img/лого.png" width="40" height="30" alt="MovieMagnet Logo" class="header-logo">
+            MovieMagnet
+        </a>
+        <nav>
+            <ul>
+                <li><a href="horror.html" class="btn genre-btn" data-genre="horror">Ужасы</a></li>
+                <li><a href="comedy.html" class="btn genre-btn" data-genre="comedy">Комедии</a></li>
+                <li><a href="action.html" class="btn genre-btn" data-genre="action">Боевики</a></li>
+                <li><a href="sci-fi.html" class="btn genre-btn" data-genre="sci-fi">Фантастика</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="genre-page active">
+        <h1>Лучшие комедии</h1>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/комедия1.png" alt="Не грози Южному Централу">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Не грози Южному Централу (1995)</h3>
+                    <p>Молодой афроамериканец по прозвищу Пепельница переезжает в Южный Централ к своему отцу, где редкий молодой человек доживает до 18. Парень гордится, что они с отцом почти ровесники — он старше папы всего на два года. Вскоре Пепельница встречается со своим кузеном по прозвищу Лок Дог. Этот парень — гангстер, в его личном арсенале не только пистолеты и автомат, но и ядерная боеголовка советского производства — для самозащиты, разумеется. Пепельница должен выбрать дальнейший путь в жизни: он может стать «просто хорошим чернокожим» или «опасным чернокожим», примкнув к банде своего кузена.</p>
+                    <p><strong>Режиссер:</strong> Пэрис Барклай</p>
+                    <p><strong>Рейтинг:</strong> 6.5/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/комедия2.png" alt="Большой Стэн">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Большой Стэн (2007)</h3>
+                    <p>Стэн в панике – его ждет срок за мошенничество. И его очень пугает надвигающееся тюремное заключение. Чтобы обезопасить себя от разного рода неожиданностей, Стэн обращается за помощью к Мастеру боевых искусств, который сможет научить его паре приемов.</p>
+                    <p><strong>Режиссер:</strong> Роб Шнайдер</p>
+                    <p><strong>Рейтинг:</strong> 6,2/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <div class="movie-card-poster">
+                    <img src="Img/комедия3.png" alt="Очень страшное кино">
+                </div>
+                <div class="movie-card-content">
+                    <h3>Очень страшное кино (2000)</h3>
+                    <p>Пародия на фильмы ужасов с кучей нелепых ситуаций и отсылок к популярным хоррорам. Фильм высмеивает такие картины, как "Крик", "Я знаю, что вы сделали прошлым летом" и "Шестое чувство". Группа подростков становится мишенью таинственного убийцы, но все происходящее подано в комедийном ключе.</p>
+                    <p><strong>Режиссер:</strong> Кинан Айвори Уэйанс</p>
+                    <p><strong>Рейтинг:</strong> 6.2/10 (IMDb)</p>
+                    <a href="#" class="btn">Смотреть трейлер</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://t.me/patarrrnich" target="_blank"><img src="img/tg.png" width="35" height="35" alt="Telegram"></a>
+            <a href="https://vk.com/patpat9" target="_blank"><img src="img/vk.png" width="35" height="35" alt="VK"></a>
+            <a href="https://www.figma.com/@patarrr" target="_blank"><img src="img/fig.png" width="35" height="35" alt="Figma"></a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><div class="movies-examples">Copyright ® 2025 MovieMagnet</div></li>
+            </ul>
+        </nav>
+        <img src="img/лого.png" width="40" height="30" alt="footer-logo" class="footer-logo">
+    </footer>
+    <script src="js/script.js"></script>
+    
+<div id="video-modal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="close-modal">&times;</span>
+        <video id="video-player" controls>
+            Ваш браузер не поддерживает HTML5 видео.
+        </video>
+        <div class="video-controls">
+            <button class="control-btn play-pause">▶</button>
+            <input type="range" class="video-progress" value="0">
+            <button class="control-btn fullscreen">⛶</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
